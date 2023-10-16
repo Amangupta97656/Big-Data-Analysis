@@ -3,7 +3,7 @@
 import ibm_db
 
 # Connect to the IBM Db2 database
-conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=myhost;PORT=myport;PROTOCOL=TCPIP;UID=bsj92334;PWD=9xAOjpxeWtsLcMUo;", "", "")
+conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=myhost;PORT=myport;PROTOCOL=TCPIP;UID=jtv12964;PWD=1uivTqz3vrbARpGU;", "", "")
 
 # Assuming 'data' is your dataset
 for row in data:
@@ -26,7 +26,7 @@ ibm_db.close(conn)
 import pandas as pd
 
 # Connect to the IBM Db2 database
-conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=myhost;PORT=myport;PROTOCOL=TCPIP;UID=bsj92334;PWD=9xAOjpxeWtsLcMUo;", "", "")
+conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=myhost;PORT=myport;PROTOCOL=TCPIP;UID=jtv12964;PWD=1uivTqz3vrbARpGU;", "", "")
 
 # SQL query to fetch data
 sql = "SELECT * FROM your_table"
